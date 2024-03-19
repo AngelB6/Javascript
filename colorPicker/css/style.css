@@ -1,0 +1,33 @@
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+#color-picker{
+    width: 300px;
+    height: 50px;
+    border-radius: 4vh;
+}
+
+.btn-visual-color{
+    color: white;
+    background-color: rgb(121, 121, 233);
+    width: 300px;
+    height: 50px;
+    border-radius: 4vh;
+    font-size: 15px;
+    cursor: pointer;
+    border-color: white;
+}
+
+.btn-visual-color:hover{
+    background-color: rgb(89, 89, 238);
+}
