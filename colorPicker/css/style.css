@@ -12,9 +12,8 @@ h1{
 }
 
 #color-picker{
-    width: 300px;
-    height: 50px;
-    border-radius: 4vh;
+    width: 400px;
+    height: 60px;
 }
 
 .btn-visual-color{
@@ -30,4 +29,15 @@ h1{
 
 .btn-visual-color:hover{
     background-color: rgb(89, 89, 238);
+    font-weight: bold;
+}
+
+.visualizar-color{
+    height: 250px;
+    width: 300px;
+    border-radius: 5vh;
+}
+
+.hex-color{
+    font-weight: lighter;
 }
