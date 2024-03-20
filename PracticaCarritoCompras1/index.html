@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carrito Compras</title>
-</head>
-<body>
-    <template id="template">
-        <h3 class="nom-fruta">Nombre Fruta</h3>
-        <button class="btn-push">Agregar</button>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <template id="templateCard">
+      <div class="contenedor-principal-card">
+        <div class="contenidoCard">
+          <span class="nom-fruta">Nombre Fruta</span>
+          <button class="btn-push">Agregar</button>
+        </div>
+      </div>
     </template>
 
-    <template id="template">
-        <p class="nom-fruta">Nombre Fruta</p>
-        <p class="cant-fruta">Cantidad de frutas agregadas</p>
+    <template id="templateLista">
+      <p class="nom-fruta">Nombre Fruta</p>
+      <p class="cant-fruta">Cantidad de frutas agregadas</p>
     </template>
 
-    <ul class="listaFrutas"></ul>
-
+    <ul class="cardFrutas"></ul>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

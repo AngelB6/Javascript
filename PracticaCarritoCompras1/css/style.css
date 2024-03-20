@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenidoCard {
+    float: left;
+    width: 220px;
+    height: 120px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 7vh;
+    margin-top: 5px;
+}
+
+.nom-fruta{
+    font-size: 5vh;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.btn-push{
+    width: 120px;
+    height: 40px;
+    background-color:  rgb(0, 102, 255);
+    color: white;
+    border-radius: 3vh;
+    border: 0;   
+    cursor: pointer;
+}
+
+.btn-push:hover{
+    background-color:  rgb(2, 46, 112);
+}
