@@ -1,3 +1,8 @@
-# Javascript
+# Ejercicios y conceptos de Javascript
 
-Repositorio para los cursos aprendiendo Javascript.
+## Todo el contenido de este repositorio es en base a multiples videos de YouTube 
+
+Conceptos:
+* Objetos
+* Fragment
+* Template
